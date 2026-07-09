@@ -1,3 +1,0 @@
-spring.application.name=jwt-handson
-
-server.port=8080
