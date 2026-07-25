@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hands-On 3: Directives & Custom Pipes</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+    .container { padding: 30px; max-width: 900px; margin: 0 auto; }
+    .card { background: white; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-left: 5px solid #2ecc71; transition: background 0.2s; }
+    .card:hover { background-color: #fffde7; }
+    .badge { padding: 4px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; color: white; float: right; }
+    .badge-passed { background: #2ecc71; }
+    .badge-pending { background: #95a5a6; }
+    .badge-failed { background: #e74c3c; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Course Listings (Directives & CreditLabel Pipe)</h2>
+    <div class="card">
+      <span class="badge badge-passed">Passed</span>
+      <h3>Data Structures & Algorithms</h3>
+      <p>Code: CS101 | Credits: 4 Credits (Pipe)</p>
+    </div>
+    <div class="card" style="border-left-color: #95a5a6;">
+      <span class="badge badge-pending">Pending</span>
+      <h3>Web Development with Angular</h3>
+      <p>Code: CS102 | Credits: 3 Credits (Pipe)</p>
+    </div>
+    <div class="card" style="border-left-color: #e74c3c;">
+      <span class="badge badge-failed">Failed</span>
+      <h3>Database Management Systems</h3>
+      <p>Code: CS103 | Credits: 4 Credits (Pipe)</p>
+    </div>
+  </div>
+</body>
+</html>
