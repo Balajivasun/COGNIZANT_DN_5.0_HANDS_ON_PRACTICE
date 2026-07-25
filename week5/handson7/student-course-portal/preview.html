@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hands-On 7: Angular Routing & Guards</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; background: #f4f7f6; }
+    .navbar { background: #2c3e50; padding: 15px 30px; color: white; display: flex; gap: 20px; }
+    .navbar a { color: white; text-decoration: none; font-weight: bold; }
+    .content { padding: 30px; max-width: 800px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Profile (AuthGuard)</a>
+  </nav>
+  <div class="content">
+    <h2>Angular Routing & Nested Routes</h2>
+    <p>Navigating to /courses/101 displays Course Detail component.</p>
+    <p>Navigating to /profile enforces AuthGuard checks.</p>
+  </div>
+</body>
+</html>

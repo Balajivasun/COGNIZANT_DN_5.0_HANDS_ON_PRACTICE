@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hands-On 6: Services & Dependency Injection</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; padding: 30px; background: #f4f7f6; }
+    .card { background: white; padding: 15px; border-radius: 8px; margin-bottom: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .widget { background: #eef2f7; padding: 12px; border-radius: 6px; margin-bottom: 15px; }
+  </style>
+</head>
+<body>
+  <div style="max-width: 800px; margin: 0 auto;">
+    <h2>Course List (CourseService & EnrollmentService DI)</h2>
+    <div class="widget">Shared Singleton CourseService Total Count: 5</div>
+    <div class="card">
+      <h3>Data Structures & Algorithms</h3>
+      <button onclick="this.innerText = this.innerText === 'Enroll' ? 'Unenroll' : 'Enroll'">Enroll</button>
+    </div>
+    <div class="card">
+      <h3>Web Development with Angular</h3>
+      <button onclick="this.innerText = this.innerText === 'Enroll' ? 'Unenroll' : 'Enroll'">Enroll</button>
+    </div>
+  </div>
+</body>
+</html>

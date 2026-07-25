@@ -1,0 +1,20 @@
+{
+  "courses": [
+    {
+      "id": 101,
+      "name": "Data Structures",
+      "code": "CS101",
+      "credits": 4,
+      "gradeStatus": "passed"
+    },
+    {
+      "id": 102,
+      "name": "Angular Fundamentals",
+      "code": "CS102",
+      "credits": 3,
+      "gradeStatus": "pending"
+    }
+  ],
+  "students": [],
+  "enrollments": []
+}
